@@ -1,0 +1,22 @@
+.mini-title {
+  width: fit-content;
+  height: auto;
+  margin: 0 auto;
+
+  h3 {
+    width: fit-content;
+    height: fit-content;
+
+    font-size: calc((100vw + 25vh)*0.875*0.006);
+    color: #496D8C;
+    text-transform: uppercase;
+  }
+
+  .border {
+    border: calc((100vw + 25vh) * 0.875 * 0.001) solid #496D8C;
+    border-radius: 20px;
+    padding: calc((100vw + 25vh) * 0.875 * 0.002);
+    background-color: #496D8C15;
+  }
+  .no-border {}
+}
