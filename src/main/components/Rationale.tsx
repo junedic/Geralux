@@ -23,6 +23,7 @@ export class Rationale extends React.Component<any, any> {
         return { __html: markup };
     }
 
+    //TODO: rewrite into generating method
     public render() {
         return(
           <div className={"rationale"} lang={"en"}>
